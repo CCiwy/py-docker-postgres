@@ -4,7 +4,7 @@ Basic showcase how to connect to a postgres database in a docker container
 # Setup
 ## setup docker
 ```
-$ docker run --rm --name <IMAGE_NAME_HERE> -e POSTGRES_PASSWORD=<YOUR_PASSWORD_HERE> --network="host" postgres 
+$ docker run --name <IMAGE_NAME_HERE> -e POSTGRES_PASSWORD=<YOUR_PASSWORD_HERE> --network="host" postgres 
 
 ```
 Replace the placeholders <...> with your data
